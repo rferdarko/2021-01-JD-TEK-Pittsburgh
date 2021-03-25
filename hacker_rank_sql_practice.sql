@@ -23,10 +23,27 @@ FROM CITY
 WHERE ID='1661';
 
 
-// Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+// Query all attributes of every Japanese city in the CITY table. 
+// The COUNTRYCODE for Japan is JPN.
 
 SELECT *
 FROM CITY
 WHERE COUNTRYCODE='JPN';
 
+
+
+// Query the names of all the Japanese cities in the CITY table. 
+// The COUNTRYCODE for Japan is JPN.
+
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE='JPN';
+
+
+//  Query a list of CITY names from STATION for cities that have 
+//  an even ID number. Print the results in any order, but exclude 
+//  duplicates from the answer.
+
+
+//  SELECT DISTINCT CITY FROM STATION WHERE (ID % 2) = 0;
 
