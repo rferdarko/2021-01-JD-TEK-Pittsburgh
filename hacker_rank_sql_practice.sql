@@ -45,5 +45,12 @@ WHERE COUNTRYCODE='JPN';
 //  duplicates from the answer.
 
 
-//  SELECT DISTINCT CITY FROM STATION WHERE (ID % 2) = 0;
+ SELECT DISTINCT CITY FROM STATION WHERE (ID % 2) = 0;
+
+
+//  Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
+//  The STATION table is described as follows:
+
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION;
+
 
