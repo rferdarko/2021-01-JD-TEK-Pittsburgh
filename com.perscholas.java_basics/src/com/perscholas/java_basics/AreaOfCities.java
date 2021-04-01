@@ -1,6 +1,6 @@
 package com.perscholas.java_basics;
 
-public class AreaOfCities {
+// public class AreaOfCities {
 
     /*
   Suppose you need to estimate the area enclosed by four cities,
@@ -29,3 +29,4 @@ public class areaOfCities {
 
 
 }
+*/

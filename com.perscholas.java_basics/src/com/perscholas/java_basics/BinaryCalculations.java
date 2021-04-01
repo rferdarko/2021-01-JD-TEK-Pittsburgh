@@ -1,5 +1,5 @@
 package com.perscholas.java_basics;
-
+/*
 public class BinaryCalculations {
 }    public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class BinaryCalculations {
         // divide the number by 2 until the quotient is zero (0)
         // 1
         */
-
+/*
     int numb = 1;   // integer to convert
     int divisor = 2; // divisor
     int binary1 = numb % divisor; // divide until quotient is zero
@@ -72,7 +72,7 @@ public class BinaryCalculations {
     //    0010 0001 1111
     //   0010 1100 0110 0111
 
-/*
+
         Write a program that declares an integer a variable x and assigns the value 2 to it and prints out the binary
         string version of the number ( Integer.toBinaryString(x) ). Now, use the left shift operator (<<) to shift
         by 1 and assign the result to x. Before printing the results, write a comment with the predicted decimal
@@ -103,6 +103,5 @@ public class BinaryCalculations {
         the sum (should be 14). Now change the increment operator to postfix (x++) and re-run the program.
         Notice what the value of sum is. The first configuration incremented x and then calculated the sum while
         the second configuration calculated the sum and then incremented x.
-         */
-    }
-}
+*/
+

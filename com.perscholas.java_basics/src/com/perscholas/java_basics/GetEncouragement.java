@@ -1,10 +1,8 @@
 package com.perscholas.java_basics;
 
-public class GetEncouragement {
+    public class GetEncouragement {
 
-    public class getEncouragement {
-
-        public static void getEncouragement(int grade) {
+        public static void GetEncouragement(int grade) {
             String output;
             switch (grade / 10) {
                 case 10:
@@ -25,4 +23,4 @@ public class GetEncouragement {
             System.out.println(output);
         }
     }
-}
+
