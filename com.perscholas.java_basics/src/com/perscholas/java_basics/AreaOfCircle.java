@@ -1,8 +1,13 @@
 package com.perscholas.java_basics;
 
+import java.util.Scanner;
+
 public class AreaOfCircle {
     public static void main(String[] args) {
-        double radius;
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a double value: ");
+        double radius = input.nextDouble();
         double area;
 
         // Assign a radius
