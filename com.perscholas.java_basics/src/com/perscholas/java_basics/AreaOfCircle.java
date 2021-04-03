@@ -1,4 +1,4 @@
-package com.perscholas.java_basics;
+/* package com.perscholas.java_basics;
 
 import java.util.Scanner;
 
@@ -15,8 +15,9 @@ public class AreaOfCircle {
 
         // compute the area
         area = radius * radius * 3.14159;
-
+        isNull
         // Display the results
         System.out.println("The area of the circle with a radius of "+radius +" is " + area);
     }
 }
+*/
