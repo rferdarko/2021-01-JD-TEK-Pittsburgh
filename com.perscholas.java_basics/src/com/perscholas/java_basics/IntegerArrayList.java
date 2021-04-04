@@ -13,10 +13,19 @@ public class IntegerArrayList {
         myNums.remove(2); // removes the object at index 2 from the list
         System.out.println("List now contains " + myNums);
         myNums.add(4); // adds another object to the list
+        System.out.println("we added 4 to the list, so the list now reads: "+myNums);
         int mySum = 0; // instantiates a new int with the sum of the list
         for (int i : myNums)  // for loop to iterate the list
             mySum += i;  // sums the elements in the list
-        System.out.println("The sum of the list is " + mySum); // prints sum
+        System.out.println("The sum of the list is " + mySum); // prints sum of integers in the list
+        System.out.println("Index of #4 is "+myNums.indexOf(4)); // check if 4 is in the list and prints its index value
+        if (myNums.contains(2)){  // if statement for boolean value, if 2 is in the list
+            System.out.println("2 is in the list.");} // if true, print statement
+        else  { // otherwise the statement is false
+            System.out.println("2 is not in the list"); // and prints this statement
+        }
+
+
 
     }
 }
