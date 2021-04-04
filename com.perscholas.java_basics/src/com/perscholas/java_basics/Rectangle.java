@@ -5,5 +5,6 @@ public class Rectangle {   // rectangle class
     int width;   // integer variable for width
 
     void printArea() {     // method to print area of rectangle
-        System.out.println(height * width); // prints height * width
+        System.out.println(height * width); // prints area of rectangle
     }
+}
