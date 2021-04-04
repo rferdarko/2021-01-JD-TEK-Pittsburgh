@@ -1,8 +1,8 @@
 package com.perscholas.java_basics;
 
 public class Rectangle {   // rectangle class
-    int height;  // integer variable for height
-    int width;   // integer variable for width
+    private int height;  // integer variable for height
+    private int width;   // integer variable for width
 
     void setHeight(int h) {  // getter method or height
         height = h;
