@@ -7,17 +7,29 @@ public class Rectangle {   // rectangle class
     void setHeight(int h) {  // getter method or height
         height = h;
     }
-    void setWidth(int w) {   // getter method for width
-        width = w;
+    public int getHeight() {  // setter for height
+        return height;    // return value
     }
+    void setWidth(int w) {   // getter method for width
+        width = w;         // return value
+    }
+    public int getWidth() {  // setter for width
+        return width;    // return value
+    }
+
     void printArea() {     // method to print area of rectangle, no return value
         System.out.println("The are of the rectangle is: "+ height * width); // prints area of rectangle
+    }
+    public int getArea() {    // setter for area
+        return height * width;  // return value
     }
 
     public static void main(String[] args) {
         Rectangle r1 = new Rectangle(); // uses Rectangle Class to instantiate r1
         r1.setHeight(5);  // setter method for height
         r1.setWidth(9);   // setter method for width
-        r1.printArea(); // calls printArea method from Rectangle Class
+        System.out.println("Rectangle r1 height is "+ r1.getHeight()); // prints r1 height
+        System.out.println("Rectangle r1 Width is " + r1.getWidth()); // prints r1 width
+        System.out.println("The area of the rectangle is " + r1.getArea());  // prints r1 area
     }
 }
