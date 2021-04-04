@@ -1,5 +1,5 @@
 public class Door {     // creates a class for the Door object
-    String name;  // using a name String
+    String name;  // String called name for assigning names to the doors
     boolean isOpen; // boolean value for isOpen
 
     void open() {    // if door is open
