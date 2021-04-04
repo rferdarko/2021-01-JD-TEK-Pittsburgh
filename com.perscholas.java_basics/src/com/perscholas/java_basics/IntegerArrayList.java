@@ -15,7 +15,7 @@ public class IntegerArrayList {
         myNums.add(4); // adds another object to the list
         int mySum = 0; // instantiates a new int with the sum of the list
         for (int i : myNums)  // for loop to iterate the list
-            mySum += i;  // sums the elements int he list
+            mySum += i;  // sums the elements in the list
         System.out.println("The sum of the list is " + mySum); // prints sum
 
     }
