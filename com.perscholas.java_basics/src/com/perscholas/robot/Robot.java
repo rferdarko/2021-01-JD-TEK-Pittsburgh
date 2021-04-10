@@ -13,7 +13,7 @@ public class Robot {  // public class Robot
     }
     public void setMaxSpeed(int maxSpeed) { // method to set maximum speed
         if (maxSpeed >= 0) // if maxSpeed is greater than or equal to 0 as a boolean
-            this.maxSpeed = maxSpeed; // intantiates maxSpeed with this.
+            this.maxSpeed = maxSpeed; // instantiates maxSpeed with this.
         else this.maxSpeed = 0; // otherwise this instance of maxSpeed equals zero
     }
     public void travel() {  // creates a method to report the Robots movement
