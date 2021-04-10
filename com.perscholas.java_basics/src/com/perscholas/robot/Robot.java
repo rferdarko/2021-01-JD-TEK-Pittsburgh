@@ -7,6 +7,9 @@ public class Robot {  // public class Robot
     public Robot() {      // Robot Constructor takes no arguments
         this.maxSpeed = 1; // initializes the maxSpeed variable to 1
     }
+    public Robot(int maxSpeed) {  // overloaded constructor for maxSpeed
+        this.maxSpeed = maxSpeed;
+    }
 
     public  int getMaxSpeed() {   // getter to get the maximum speed
         return maxSpeed;  // return value
