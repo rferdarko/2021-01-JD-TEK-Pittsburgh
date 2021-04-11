@@ -1,5 +1,7 @@
 package com.perscholas.java_basics;
 
+import java.util.Arrays;
+
 public class CopyArray {     // Copies an array of ints
     public static void main(String[] args) {  // main method
 
@@ -10,6 +12,9 @@ public class CopyArray {     // Copies an array of ints
         targetArray[i] = sourceArray[i]; // copies elements index by index to targetArray
 
     for (int i = 0; i < targetArray.length; i++) // for loop to iterate targetArray elements
-        System.out.println(targetArray[i]); // prints elements of targt array
+        System.out.println(targetArray[i]); // prints elements of target array
+
+        System.out.println(Arrays.toString(targetArray));  // Prints entire array as a String
     }
+
 }
